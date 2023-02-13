@@ -1,0 +1,46 @@
+
+/*This is a comment in CSS*/
+
+body{
+    font-family: Georgia, serif;
+}
+
+h1{
+    font-size: 30px;
+}
+
+#roy{
+    font-size: 18px;
+    color:blue;
+}
+
+.highlight {
+    font-weight: bold;
+    filter: drop-shadow(15px 5px 2px #828282);}
+
+p{
+    font-size: 20px;
+}
+
+.centered-wrapper{
+    width:800px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+    /* encapsulation: ViewEncapsulation.None; */
+}
+
+.faroff{
+    font-weight: bold;
+    text-align: left;
+    rotate: -7deg;
+    opacity: 0.6;
+    filter: drop-shadow(-30px 5px 2px #828282);
+}
+
+/* a.black:hover{
+    color:red;
+} */
+a:hover{
+    color:blue;
+}
